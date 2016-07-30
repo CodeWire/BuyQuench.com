@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'lucida_handwritingitalic';
+    src: url('fonts/lhandw/lhandw-webfont.eot');
+    src: url('fonts/lhandw/lhandw-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lhandw/lhandw-webfont.woff') format('woff'),
+         url('fonts/lhandw/lhandw-webfont.ttf') format('truetype'),
+         url('fonts/lhandw/lhandw-webfont.svg#lucida_handwritingitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'ArialRoundedMTBold';
+	src: url('fonts/ArialRoundedMTBold/ArialRoundedMTBold.eot?') format('eot'), 
+	     url('fonts/ArialRoundedMTBold/ArialRoundedMTBold.woff') format('woff'), 
+	     url('fonts/ArialRoundedMTBold/ArialRoundedMTBold.ttf')  format('truetype'),
+	     url('fonts/ArialRoundedMTBold/ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
+}
+@font-face {
+    font-family: 'arialnarrow';
+    src: url('fonts/arialn/arialn-webfont.eot');
+    src: url('fonts/arialn/arialn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/arialn/arialn-webfont.woff') format('woff'),
+         url('fonts/arialn/arialn-webfont.ttf') format('truetype'),
+         url('fonts/arialn/arialn-webfont.svg#arialnarrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helveticaneuemedium';
+    src: url('fonts/helvetica-neue-medium/helvetica-neue-medium-1361522099-webfont.eot');
+    src: url('fonts/helvetica-neue-medium/fonts/helvetica-neue-medium/helvetica-neue-medium-1361522099-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helvetica-neue-medium/helvetica-neue-medium-1361522099-webfont.woff') format('woff'),
+         url('fonts/helvetica-neue-medium/helvetica-neue-medium-1361522099-webfont.ttf') format('truetype'),
+         url('fonts/helvetica-neue-medium/helvetica-neue-medium-1361522099-webfont.svg#helveticaneuemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{background:url(images/bg.jpg) repeat;}
+.top{background:#CCC; height:28px;}
+h3.quiz_title{ font-family:lucida_handwritingitalic; font-size:45px; color:#898889;}
+.start a{ text-transform:uppercase; color:#CCC; font:27px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.btn-primary, .btn-primary:focus {background-color: #CCC;border-color: #CCC;color: #FFFFFF;padding: 9px 37px;font-family: 'ArialRoundedMTBold'; font-size:17px;min-width: 150px;}
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{background-color: #eee;border-color: #eee;color: #FFFFFF;}
+label.title, form legend, label{font-family: 'arialnarrow'; font-size:38px; color:#CCC;}
+.radio label{font-family: 'helveticaneuemedium'; font-size:18px; color:#989898;}
+form label{font-family: 'helveticaneuemedium';font-size:12px; color:#888;font-weight: normal;}
+form .control-group{margin-bottom:15px;}
+form input{ color:#989898;font-family: 'helveticaneuemedium';font-size:18px;}
+
+.progress-striped .bar{background-color: #CCC;}
+.lead_form {padding-top: 10px;}
+.lead_form .leadformcontainer{border:1px solid #d2d0d0; background:#eee; display:block; margin:0 auto; width:70%; border-radius:10px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); min-width:220px;max-width: 510px;padding: 40px 9%;}
+.lead_form form{display:table; margin:0 auto;width: 100%;}
+.flexbannerslider .lead_form .tags_button label{background:url(images/arrow.png) no-repeat;display: block;height: 64px;right: -139px;top: -30px;position: absolute;width: 101px; display:none;}
+.form-inline .lead_form .form-control{border:1px solid #e2e2e2; width:100%; font-size:18px; height:40px; border-radius:5px;}
+.tags_button{position:relative;}
+
+
+/* Large desktop */
+@media (min-width: 1200px) { .flexbannerslider .lead_form .tags_button label{display:block;} }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {  }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+h3.quiz_title{font-size: 35px;}
+.btn-primary{margin-bottom:15px;} }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {  }

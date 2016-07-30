@@ -1,0 +1,80 @@
+[12-Jun-2016 04:13:00 UTC] PHP Fatal error:  require_once(): Failed opening required 'application/libraries/infusionsoft/infusionsoft/infusionsoft.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bucket/public_html/buyquench.com/application/views/layout.php on line 140
+[12-Jun-2016 04:15:23 UTC] PHP Fatal error:  require_once(): Failed opening required 'application/libraries/infusionsoft/infusionsoft/infusionsoft.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bucket/public_html/buyquench.com/application/views/layout.php on line 140
+[12-Jun-2016 04:16:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'application/libraries/infusionsoft/infusionsoft/infusionsoft.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bucket/public_html/buyquench.com/application/views/layout.php on line 140
+[12-Jun-2016 05:26:22 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php:386
+Stack trace:
+#0 [internal function]: Questions->edit('img', 'profile-pic.jpg')
+#1 /home/bucket/public_html/buyquench.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#2 /home/bucket/public_html/buyquench.com/index.php(202): require_once('/home/bucket/pu...')
+#3 {main}
+  thrown in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php on line 386
+[12-Jun-2016 05:26:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php:386
+Stack trace:
+#0 [internal function]: Questions->edit('img', 'profile-pic.jpg')
+#1 /home/bucket/public_html/buyquench.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#2 /home/bucket/public_html/buyquench.com/index.php(202): require_once('/home/bucket/pu...')
+#3 {main}
+  thrown in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php on line 386
+[12-Jun-2016 05:30:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php:386
+Stack trace:
+#0 [internal function]: Questions->edit('img', 'profile-pic.jpg')
+#1 /home/bucket/public_html/buyquench.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#2 /home/bucket/public_html/buyquench.com/index.php(202): require_once('/home/bucket/pu...')
+#3 {main}
+  thrown in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php on line 386
+[12-Jun-2016 05:30:14 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php:386
+Stack trace:
+#0 [internal function]: Questions->edit('img', 'profile-pic.jpg')
+#1 /home/bucket/public_html/buyquench.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#2 /home/bucket/public_html/buyquench.com/index.php(202): require_once('/home/bucket/pu...')
+#3 {main}
+  thrown in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php on line 386
+[12-Jun-2016 05:30:17 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php:386
+Stack trace:
+#0 [internal function]: Questions->edit('img', 'profile-pic.jpg')
+#1 /home/bucket/public_html/buyquench.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#2 /home/bucket/public_html/buyquench.com/index.php(202): require_once('/home/bucket/pu...')
+#3 {main}
+  thrown in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php on line 386
+[12-Jun-2016 05:32:15 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php:386
+Stack trace:
+#0 [internal function]: Questions->edit('img', 'profile-pic.jpg')
+#1 /home/bucket/public_html/buyquench.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#2 /home/bucket/public_html/buyquench.com/index.php(202): require_once('/home/bucket/pu...')
+#3 {main}
+  thrown in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php on line 386
+[12-Jun-2016 05:32:18 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php:386
+Stack trace:
+#0 [internal function]: Questions->edit('img', 'profile-pic.jpg')
+#1 /home/bucket/public_html/buyquench.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#2 /home/bucket/public_html/buyquench.com/index.php(202): require_once('/home/bucket/pu...')
+#3 {main}
+  thrown in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php on line 386
+[23-Jun-2016 18:36:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php:386
+Stack trace:
+#0 [internal function]: Questions->edit('img', 'profile-pic.jpg')
+#1 /home/bucket/public_html/buyquench.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#2 /home/bucket/public_html/buyquench.com/index.php(202): require_once('/home/bucket/pu...')
+#3 {main}
+  thrown in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php on line 386
+[23-Jun-2016 18:37:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php:386
+Stack trace:
+#0 [internal function]: Questions->edit('img', 'profile-pic.jpg')
+#1 /home/bucket/public_html/buyquench.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#2 /home/bucket/public_html/buyquench.com/index.php(202): require_once('/home/bucket/pu...')
+#3 {main}
+  thrown in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php on line 386
+[24-Jul-2016 19:49:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php:386
+Stack trace:
+#0 [internal function]: Questions->edit('img', 'profile-pic.jpg')
+#1 /home/bucket/public_html/buyquench.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#2 /home/bucket/public_html/buyquench.com/index.php(202): require_once('/home/bucket/pu...')
+#3 {main}
+  thrown in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php on line 386
+[24-Jul-2016 19:49:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php:386
+Stack trace:
+#0 [internal function]: Questions->edit('img', 'profile-pic.jpg')
+#1 /home/bucket/public_html/buyquench.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#2 /home/bucket/public_html/buyquench.com/index.php(202): require_once('/home/bucket/pu...')
+#3 {main}
+  thrown in /home/bucket/public_html/buyquench.com/application/controllers/admin/questions.php on line 386

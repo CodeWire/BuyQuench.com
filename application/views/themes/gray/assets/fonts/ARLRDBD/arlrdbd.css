@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ArialRoundedMTBoldRegular';
+    src: url('arlrdbd.eot');
+    src: url('arlrdbd.eot') format('embedded-opentype'),
+         url('arlrdbd.woff') format('woff'),
+         url('arlrdbd.ttf') format('truetype'),
+         url('arlrdbd.svg#ArialRoundedMTBoldRegular') format('svg');
+}
